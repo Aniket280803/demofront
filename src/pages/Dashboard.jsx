@@ -4,7 +4,7 @@ import ServicePanel from '../components/ServicePanel';
 import UsagePanel from '../components/UsagePanel';
 import ActivityPanel from '../components/ActivityPanel';
 import SettingsPanel from '../components/SettingsPanel';
-import './Dashboard.css'; // Import styles
+import './Dashboard.css';
 
 function Dashboard() {
   return (
@@ -12,23 +12,23 @@ function Dashboard() {
       <AppNavbar />
 
       <div className="dashboard-container container-fluid">
-        <div className="row h-100">
-          <div className="col-12 col-md-6 p-2 h-50">
+        <div className="row gx-2 gy-2">
+          <div className="col-12 col-md-6">
             <div className="dashboard-panel">
               <ServicePanel />
             </div>
           </div>
-          <div className="col-12 col-md-6 p-2 h-50">
+          <div className="col-12 col-md-6">
             <div className="dashboard-panel">
               <UsagePanel />
             </div>
           </div>
-          <div className="col-12 col-md-6 p-2 h-50">
+          <div className="col-12 col-md-6">
             <div className="dashboard-panel">
               <ActivityPanel />
             </div>
           </div>
-          <div className="col-12 col-md-6 p-2 h-50">
+          <div className="col-12 col-md-6">
             <div className="dashboard-panel">
               <SettingsPanel />
             </div>
