@@ -1,14 +1,14 @@
 .dashboard-container {
-    height: calc(90vh - 56px); /* Subtract navbar height */
-    overflow: auto;
-  }
-  
-  .dashboard-panel {
-    height: 100%;
-    background: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    padding: 16px;
-    overflow-y: auto;
-  }
-  
+  min-height: calc(90vh - 56px); /* Adjust for navbar height */
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.dashboard-panel {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1rem;
+  height: 100%; /* allows child to expand */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
